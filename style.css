@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.c1 {
+    width: 100%;
+    min-height: 100vh;
+    /* height: 100%; */
+    background-color: #181818;
+    padding:  1%;
+    position: relative;
+    
+}
+
+.cp1 {
+    width: 20vw;
+    height: 35vh;
+    background-color: #be06ab;
+    border-radius: 55px;
+    margin: 1vh 2vw;
+    
+}
+
+.cp1:hover {
+    box-shadow: 0 0 30px #be06ab;
+    background-color: #d5ff5d;
+}
+
+.cp2 {
+    width: 20vw;
+    height: 58vh;
+    margin: 1vh 2vw ;
+    border: 2px solid white;
+    border-radius: 55px;
+    text-align: center;
+}
+
+.pp1 {
+    width: 16vw;
+    height: 14vh;
+    background-color: aliceblue;
+    margin: 3vh 2vw;
+    border-radius: 52px;
+    padding: 1px;
+}
+
+.pp1:hover{
+    box-shadow: 0 0 30px royalblue;
+}
+
+#img2 {
+    margin: 0 10%;
+}
+
+.but {
+    padding: 10px;
+}
+
+.but1 {
+    padding: 12px 25px;
+    border: none;
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    background-color: #be06ab;
+    color: #d5ff5d;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 1%;
+    transition: .5s;
+}
+
+.but1:hover{
+    background-color: #d5ff5d;
+    color: #be06ab;
+}
+
+.but2 {
+    padding: 12px 25px;
+    border: none;
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    background-color: #d5ff5d;
+    color: #be06ab;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 1%;
+    transition: .5s ;
+}
+
+.but2:hover{
+    background-color: #be06ab;
+    color: #d5ff5d;
+}
+
+.cp3 {
+    width: 20vw;
+    height: 94vh;
+    margin: 1vh 2vw ;
+    /* border: 2px solid white; */
+    border-radius: 55px;
+    position: absolute;
+    top: 2%;
+    left: 25%;
+    text-align: center;
+    overflow: hidden;
+
+
+}
+
+#img3 {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    /* animation: up .92s linear infinite both; */  
+      animation: up 2s linear .1s 1 both  ;
+      /* background-color: red; */
+
+}
+
+@keyframes up {
+    from {
+        /* bottom: 2%;     */
+        top: 35%;
+    }to{
+        /* bottom: %; */
+        /* left: 25%; */
+        /* left: 0%; */
+    }
+    
+}
+
+.cp3 > h1 {
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    font-size: 120px;
+    font-family: 'Acme', sans-serif;
+    padding: 2%;
+    color: #d5ff5d;
+    animation: up1 2s linear .1s 1 both  ;
+    /* background-color: #fff; */
+    opacity: 0;
+
+}
+
+@keyframes up1 {
+    from {
+        /* bottom: 2%;     */
+        top: 95%;
+    }to{
+        /* bottom: 25%; */
+        /* left: 25%; */
+        /* left: 0%; */
+        opacity: 1;
+        
+    }
+    
+}
+
+.cp4 {
+    width: 48vw;
+    height: 35vh;
+    /* background-color: red; */
+    position: absolute;
+    top: 2% ;
+    right: 0;
+    margin: 1vh 2vw ;
+    font-family: 'Acme', sans-serif;
+    /* color: #be06ab; */
+}
+
+.pp2 {
+    width: 100%;
+    height: 10vh;
+    /* background-color: #fff; */
+    font-size: 40px;
+    padding-top: 25px;
+    
+    
+}
+
+.pp2 > a  {
+    text-decoration: none;
+    color: #fa0446;
+    transition: .5s;
+}
+
+.pp2 > a:hover {
+    text-shadow: 0 0 5px #be06ab;
+    color: #d5ff5d;
+}
+
+.pp2 > a > span {
+    margin: 0 2%;
+}
+.si1{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    cursor: pointer;
+    
+}
+
+.pp3 {
+    width: 48vw;
+    height: 25vh;
+    /* background-color: #fff; */
+    color: #be06ab;
+    font-size: 115px;
+
+
+}
+
+
+#h1 {
+    color: #d5ff5d ;
+}
+
+.cp5 {
+    width: 20vw;
+    height: 58vh;
+    margin: 1vh 2vw ;
+    background-color: #d5ff5d;
+    border-radius: 55px;
+    text-align: center;
+    position: absolute;
+    top: 38%;
+    right: 25%;
+}
+
+.cp5:hover{
+    box-shadow: 0 0 30px #d5ff5d;
+    background-color: #fa0446;
+    
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    color: royalblue;    
+}
+
+.cp6 {
+    width: 20vw;
+    height: 58vh;
+    margin: 1vh 2vw ;
+    background-color: #fa0446;
+    border-radius: 55px;
+    text-align: center;
+    position: absolute;
+    top: 38%;
+    right: 0%;
+    
+}
+
+.cp6:hover{
+    background-color: #be06ab;
+    box-shadow: 0 0 30px #fa0446;
+}
+
+.cp6 > p {
+    color: #d5ff5d;
+}
+
+
